@@ -2,6 +2,7 @@
 
 body {
   /* background-color: #e0e0e0; */
+  font-size: 20px;
 }
 
 
@@ -87,4 +88,23 @@ img {
     order: 2;
     position: static;
   }
+}
+
+.info {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.link {
+    color: #2C3A47;
+    padding-right: 100px;
+}
+
+img {
+  height: 250px;
+}
+
+
+.m6, .s6 {
+      margin: 10px 0px 10px 0px;
 }
