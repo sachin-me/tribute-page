@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+body {
+  /* background-color: #e0e0e0; */
+}
+
+
+#main {
+  margin: auto;
+  padding: auto;
+}
+
+#title {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 13px;
+  background: linear-gradient(#3B3B98,#182C61 );
+  color: #fff;
+  margin-bottom: 5px;
+  box-shadow: 2px 0px 1px 3px #ddd;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 10px;
+
+}
+
+#image {
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+#img-caption {
+   font-size: 2em;
+   left: 0;
+}
+
+#img-div {
+  position: relative;
+}
+
+#btn{
+  font-size: 35px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #0091ea;
+}
+
+h1 {
+  font-size: 4.2rem;
+  line-height: 110%;
+  margin: 2.8rem 0 1.68rem 0;
+  font-variant: small-caps;
+  font-weight: 300;
+}
+
+
+img {
+  border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: -2px 4px 5px 2px #ddd;
+}
+
+
+/* Media Queries */
+
+
+@media screen and (max-width : 400px) {
+  #img-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #image {
+    height: 300px;
+    flex-grow: 1;
+    order: 0;
+  }
+  #img-caption {
+    order: 1;
+    width: 100%;
+  }
+  #btn {
+    display: block;
+    width: 100%;
+    order: 2;
+    position: static;
+  }
+}
