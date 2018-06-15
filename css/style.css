@@ -90,6 +90,15 @@ img {
   }
 }
 
+@media screen and (max-width: 360px) {
+  .row .col.s6 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+}
+
 .info {
     border: 1px solid #ddd;
     padding: 10px;
